@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is part of the Udacity Data Science Nanodegree's capstone, in collaboration with Arvato Bertelsmann, a mail-order sales company in Germany. The goal of the project is to analyze demographics data and identify customer segments using unsupervised learning techniques. We aim to compare these customer segments against demographics information for the general population. Finally, we build a supervised learning model to predict which individuals from a marketing campaign are most likely to convert into customers for Arvato.
+This project is part of the Udacity AWS ML Engineer Nanodegree's capstone, in collaboration with Arvato Bertelsmann, a mail-order sales company in Germany. The goal of the project is to analyze demographics data and identify customer segments using unsupervised learning techniques. We aim to compare these customer segments against demographics information for the general population. Finally, we build a supervised learning model to predict which individuals from a marketing campaign are most likely to convert into customers for Arvato.
 
 ## Datasets
 
