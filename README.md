@@ -44,33 +44,21 @@ Implemented K-Means clustering to segment the general population.
 ## 3. Supervised Learning
 
 Built a classification model to predict customer conversion using the marketing campaign data.
+
 Implemented various models including Logistic Regression, Random Forest, and XGBoost.
-Hyperparameter Tuning: Used GridSearchCV to optimize the model’s parameters.
-Dealing with Class Imbalance:
+
+**Dealing with Class Imbalance:**
 The marketing dataset was highly imbalanced (98.7% negative class).
-Applied under-sampling and considered other techniques like SMOTE.
+Applied under-sampling and considered other techniques like SMOTE as well.
 Evaluated model performance using ROC-AUC score and classification metrics.
-4. Model Evaluation
+
+## 4. Model Evaluation
+
 Used the validation set for evaluation.
 Achieved an improved ROC-AUC score post-tuning and under-sampling techniques.
-Results
-Customer Segmentation: Clustering identified customer groups that were more likely to convert. These over-represented clusters were targeted in the marketing campaign.
-Predictive Model: After addressing class imbalance and fine-tuning, our best model achieved a ROC-AUC score of 0.61 on the validation set.
-How to Run
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the Jupyter Notebook:
-bash
-Copy code
-jupyter notebook capstone_project.ipynb
-Files Included
-capstone_project.ipynb: Main notebook with the full analysis, including data preprocessing, clustering, and supervised learning.
-requirements.txt: List of all dependencies and libraries required to run the notebook.
-data/: Folder containing the datasets.
-images/: Folder containing images and visualizations generated during analysis.
-Future Work
-Model Improvement: Further experiments with techniques like SMOTE or advanced ensemble models to handle class imbalance more effectively.
-Feature Engineering: Explore additional feature selection or engineering to enhance model interpretability and performance.
-Additional Data: Incorporating external data sources (if available) to better understand the demographic features and improve customer segmentation.
+
+### Results
+
+**Customer Segmentation:** Clustering identified customer groups that were more likely to convert. These over-represented clusters were targeted in the marketing campaign.
+
+**Predictive Model:** After addressing class imbalance and fine-tuning, our best model achieved a ROC-AUC score of 0.827 on the validation set.
