@@ -7,9 +7,13 @@ This project is part of the Udacity Data Science Nanodegree's capstone, in colla
 ## Datasets
 
 **Udacity_AZDIAS_052018.csv:** Demographics data for the general population of Germany (891,211 rows, 366 columns).
+
 **Udacity_CUSTOMERS_052018.csv:** Demographics data for Arvato customers (191,652 rows, 369 columns).
+
 **Udacity_MAILOUT_052018_TRAIN.csv:** Marketing campaign data, including the RESPONSE column indicating customer conversion (42,982 rows, 367 columns).
+
 **Udacity_MAILOUT_052018_TEST.csv:** Similar to the TRAIN dataset, but without the RESPONSE column for model evaluation (42,833 rows, 366 columns).
+
 Each row in the datasets represents one individual, with features including household, building, and neighborhood information.
 
 ## Project Structure
