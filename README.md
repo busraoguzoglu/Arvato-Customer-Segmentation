@@ -1,6 +1,6 @@
 # Capstone Project: Customer Segmentation and Conversion Prediction
 
-The full project report can be found on Medium: 
+The full project report can be found on Medium: https://medium.com/@busra.oguzoglu/udacity-capstone-project-customer-segmentation-for-arvato-financial-solutions-6d13e4f83f11
 
 ## Project Overview
 
